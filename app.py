@@ -6,6 +6,10 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
-def hello_world():
-    return 'Hello from Flask!'
+def get_index():
+    return 'Hello from mysite!!!!!'
+
+@app.route('/bye')
+def get_bye():
+    return 'Goodbye from mysite!!!!!'
 
