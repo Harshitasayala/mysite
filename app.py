@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def get_index():
-    return 'Hello from mysite!!!!!'
+    return 'Hello from mysite - second version!!!!!'
 
 @app.route('/bye')
 def get_bye():
